@@ -1,1 +1,62 @@
+.top-menu {
+    box-sizing: border-box;
+    display:flex;
+    background-color: rgb(197, 194, 194);
+    padding: 10px;
+}
 
+.top-menu a:hover{
+    text-decoration: underline;
+}
+
+/* #3x3 {
+    display: flex
+} 
+*/
+
+/*
+#3x3: hover {
+    /*show 'Google apps'*/
+    /*grey circle around icon*/
+/*}*/
+
+.search-items { /* Placeholder for google img and search bar while we work on nav and footer */
+    background-color: white;
+    height: 150px; 
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(243, 245, 245);
+    padding: 10px;
+}
+
+.footer-div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    align-items: center;
+    min-width: 200px;
+}
+
+#leaf-carbon {
+    justify-content: center;
+}
+
+.footer-div a{
+    text-decoration: none;
+    color: rgb(113, 111, 111);
+    font: 14px Roboto, Arial, sans-serif;
+    padding: 0px 20px 0px 20px;
+}
+
+#leaf-carbon a{
+    padding: 0px;
+}
+
+.footer-div a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(113, 111, 111);
+}

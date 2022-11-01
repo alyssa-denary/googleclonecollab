@@ -4,23 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>google clone</title>
 </head>
 <body>
-    <nav class="top menu">
-        
+    <nav class="top-menu"> <!--should I change this to div and have nav above it?-->
+        <ul>
+            <!--in the inspector, google has each of this as a div/class each with it's own styling-->
+            <li><a href = "https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+            <li><a href = "https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
+            <li><a href = "https://mail.google.com/mail/&ogbl">Gmail</a></li>
+            <li><a href = "https://www.google.com/imghp?hl=en&ogbl">Images</a></li>
+        <!--3x3grid button-->
+            <img id="3x3" alt="" src="">
+            <a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAmgQ">
+        <!--Sign In button-->
+            <button id="signIn">Sign In</button>
+        </ul> 
     </nav>
+    <div class="search-items"> 
+        
+    </div>
     <footer>
-        <div>
+        <div class="footer-div">
             <a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
             <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
             <a href="https://google.com/search/howsearchworks/?fg=1">How Search works</a>
         </div>
-        <div>
+        <div class="footer-div" id="leaf-carbon">
             <img alt="leaf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC">
             <a href="https://sustainability.google/carbon-free/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=">Carbon neutral since 2007</a>
         </div>
-        <div>
+        <div class="footer-div">
             <a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
             <a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
             <a href="https://www.google.com/#:~:text=Terms-,Settings">Settings</a>
